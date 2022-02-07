@@ -17,12 +17,12 @@
   "resolved" "https://registry.npmjs.org/@pixi/compressed-textures/-/compressed-textures-6.2.2.tgz"
   "version" "6.2.2"
 
-"@pixi/constants@6.2.2":
+"@pixi/constants@^6.0.0", "@pixi/constants@6.2.2":
   "integrity" "sha512-BKSoj/5SI+pQEatuCG5kXXWtCZmZZNMhfhXeqvYO/WNZ+LDxm6F4pllf0t7KjGs1ZBpNxVf6fyngF9Q5r3MgJQ=="
   "resolved" "https://registry.npmjs.org/@pixi/constants/-/constants-6.2.2.tgz"
   "version" "6.2.2"
 
-"@pixi/core@6.2.2":
+"@pixi/core@^6.0.0", "@pixi/core@6.2.2":
   "integrity" "sha512-XAqgdJ1w9k1ZUBXECm19rcnN2ngm+tOP74HkGw4qQay0biM3JS+wtX4fWQmZNGr8krf6lJrNbsghbtUy70uUaw=="
   "resolved" "https://registry.npmjs.org/@pixi/core/-/core-6.2.2.tgz"
   "version" "6.2.2"
@@ -49,7 +49,7 @@
   dependencies:
     "@pixi/filter-kawase-blur" "4.1.5"
 
-"@pixi/filter-alpha@6.2.2":
+"@pixi/filter-alpha@^6.0.0", "@pixi/filter-alpha@6.2.2":
   "integrity" "sha512-CijLcgFdmivmSyZuM5Yyeo6R+PwalZp9OSoard1Oh5DBVvcRDn4m3cBM+nimR4YJbr0kiMbK4Ja8r+e2vwFVjA=="
   "resolved" "https://registry.npmjs.org/@pixi/filter-alpha/-/filter-alpha-6.2.2.tgz"
   "version" "6.2.2"
@@ -69,7 +69,7 @@
   "resolved" "https://registry.npmjs.org/@pixi/filter-bloom/-/filter-bloom-4.1.5.tgz"
   "version" "4.1.5"
 
-"@pixi/filter-blur@6.2.2":
+"@pixi/filter-blur@^6.0.0", "@pixi/filter-blur@6.2.2":
   "integrity" "sha512-ApFqn2fMIipr3mRp/8dZ74qraGGzzPO/EzvltDqJLru9vGlbX6dKLXZ6w5H8D/uN6aQW1e4N1Nrtzk5mvJVQ3g=="
   "resolved" "https://registry.npmjs.org/@pixi/filter-blur/-/filter-blur-6.2.2.tgz"
   "version" "6.2.2"
@@ -246,7 +246,7 @@
   "resolved" "https://registry.npmjs.org/@pixi/loaders/-/loaders-6.2.2.tgz"
   "version" "6.2.2"
 
-"@pixi/math@6.2.2":
+"@pixi/math@^6.0.0", "@pixi/math@6.2.2":
   "integrity" "sha512-TtsaooRRMc/WAZ4LKUDhP/d14BZElLjRNa2gopwTKUtrDa1KvzAMr8WJ8P+gaXl4DJ8B/MlgESdPhRUqVSUw0A=="
   "resolved" "https://registry.npmjs.org/@pixi/math/-/math-6.2.2.tgz"
   "version" "6.2.2"
@@ -299,7 +299,7 @@
   "resolved" "https://registry.npmjs.org/@pixi/runner/-/runner-6.2.2.tgz"
   "version" "6.2.2"
 
-"@pixi/settings@6.2.2":
+"@pixi/settings@^6.0.0", "@pixi/settings@6.2.2":
   "integrity" "sha512-eQv0ykSwnJUd/LF4MuaFoL+eBNG+EUPAVfsnlsez/Y09aqwIzJyAjRx+uGp9adQ3XHXwYt2l2wINn+foF1y/8A=="
   "resolved" "https://registry.npmjs.org/@pixi/settings/-/settings-6.2.2.tgz"
   "version" "6.2.2"
@@ -341,7 +341,7 @@
   "resolved" "https://registry.npmjs.org/@pixi/ticker/-/ticker-6.2.2.tgz"
   "version" "6.2.2"
 
-"@pixi/utils@6.2.2":
+"@pixi/utils@^6.0.0", "@pixi/utils@6.2.2":
   "integrity" "sha512-rpS6QolFuRmm/QcKm5PYHOCkX6okl9a00u2osaMbmPP+l7XLATTxSsFhw64UbSNR+zmzsrhreRFBVFn3tf8K6w=="
   "resolved" "https://registry.npmjs.org/@pixi/utils/-/utils-6.2.2.tgz"
   "version" "6.2.2"
@@ -365,11 +365,6 @@
   "integrity" "sha512-iRDI1QeCQIhMCZk48DRDMVgQSSBDmbzzNhnxIo+pwx3swkfjMh6vh0nWLq1NdvGHLKH6wIrAM3vQWeTj6qeoug=="
   "resolved" "https://registry.npmjs.org/earcut/-/earcut-2.2.3.tgz"
   "version" "2.2.3"
-
-"esbuild-linux-64@0.13.15":
-  "integrity" "sha512-eCKzkNSLywNeQTRBxJRQ0jxRCl2YWdMB3+PkWFo2BBQYC5mISLIVIjThNtn6HUNqua1pnvgP5xX0nHbZbPj5oA=="
-  "resolved" "https://registry.npmjs.org/esbuild-linux-64/-/esbuild-linux-64-0.13.15.tgz"
-  "version" "0.13.15"
 
 "esbuild-windows-64@0.13.15":
   "integrity" "sha512-9aMsPRGDWCd3bGjUIKG/ZOJPKsiztlxl/Q3C1XDswO6eNX/Jtwu4M+jb6YDH9hRSUflQWX0XKAfWzgy5Wk54JQ=="
